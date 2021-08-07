@@ -47,32 +47,7 @@ político, sendo que a hospedagem é toda por conta do projeto (ver patrocínio)
 
 ## Docker
 
-### MariaDB
 
-```
-    docker run -d \
-    --name=mariadb \
-    --restart=always \
-    -v /etc/localtime:/etc/localtime:ro \
-    -e MYSQL_ROOT_PASSWORD=root \
-    -v /storage/mariadb:/var/lib/mysql \
-    -p 3306:3306 \
-    mariadb:latest
-    
-```
-
-### Phpmyadmin
-
-```
-    docker run -d \
-    --restart=always \
-    --name myadmin \
-    -v /etc/localtime:/etc/localtime:ro \
-    --link mariadb:db \
-    -p 8080:80 \
-    phpmyadmin/phpmyadmin
-    
-```
 
 
 ## Modelagem do Banco
