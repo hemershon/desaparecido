@@ -19,9 +19,9 @@ político, sendo que a hospedagem é toda por conta do projeto (ver patrocínio)
 
 ## Tecnologias que vamos usar:
 
-- Ruby 2.6.1
-- Rails 5.2.2
-- MariaDB
+- Ruby 3.0.0
+- Rails 6.0
+- Postgresql
 
  Caso você tenha alguma sugestão, por favor, não deixe de ajudar.
 
